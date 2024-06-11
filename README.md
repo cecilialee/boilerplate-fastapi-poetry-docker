@@ -28,7 +28,9 @@ poetry install
 
 ## Build from Scatch
 
-### Initialize a Poetry Project
+### Prepare Environment
+
+#### Initialize pyproject.toml
 
 Initialize a pre-populated directory as a Poetry project by creating a basic `pyproject.toml` file in the current directory.
 
@@ -52,7 +54,7 @@ package-mode = false
 poetry add pytest ipykernel --group dev
 ```
 
-### Prepare Poetry Environment
+#### Install Project Dependencies
 
 Install the project dependencies specified in `pyproject.toml` and create Poetry virtual environment.
 
