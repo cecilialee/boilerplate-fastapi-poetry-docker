@@ -16,7 +16,7 @@ git clone git@github.com:Salfiii/fastapi-template.git
 
 > [!NOTE]
 >
-> The project uses [Poetry](https://python-poetry.org/) for package and environment management. If Poetry is not already installed, following the installation steps at the later sections.
+> The project uses [Poetry](https://python-poetry.org/) for package and environment management. If Poetry is not already installed, follow the installation steps at the later sections.
 
 Install the project dependencies specified in `pyproject.toml` and `poetry.lock` and create Poetry virtual environment. 
 
