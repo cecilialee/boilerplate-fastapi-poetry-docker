@@ -2,7 +2,8 @@
 
 # Install Poetry
 
-The official [Poetry documentation](https://python-poetry.org/docs/) suggests to install Poetry with `pipx`. `pipx` is used to install Python CLI applications globally while still isolating them in virtual environments. pipx will manage upgrades and uninstalls when used to install Poetry.
+> [!NOTE]
+> The official [Poetry documentation](https://python-poetry.org/docs/) suggests to install Poetry with `pipx`. `pipx` is used to install Python CLI applications globally while still isolating them in virtual environments. pipx will manage upgrades and uninstalls when used to install Poetry.
 
 If `pipx` is not already installed, install following the official [pipx documentation](https://pipx.pypa.io/stable/installation/) according to the OS system.
 
@@ -18,3 +19,6 @@ Install Poetry with `pipx`.
 ```sh
 pipx install poetry
 ```
+
+# Create a Poetry Project
+
