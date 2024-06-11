@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "boilerplate-fastapi-poetry"
+version = "0.1.0"
+description = "FastAPI + Poetry Boilerplate"
+authors = ["Cecilia Lee <ceciliahslee@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
