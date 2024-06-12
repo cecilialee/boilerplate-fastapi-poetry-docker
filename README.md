@@ -1,4 +1,4 @@
-# FastAPI + Poetry Boilerplate
+# FastAPI, Poetry, Docker Boilerplate
 
 ## Requirements
 
@@ -16,7 +16,7 @@
 Clone the boilerplate from GitHub.
 
 ```sh
-git clone git@github.com:cecilialee/boilerplate-fastapi-poetry.git
+git clone git@github.com:cecilialee/boilerplate-fastapi-poetry-docker.git
 ```
 
 ### Prepare Environment
@@ -90,6 +90,11 @@ poetry install
 > 
 > ```sh
 > poetry env list
+> ```
+>
+> Get basic information about the currently activated environment.
+> ```
+> poetry env info
 > ```
 >
 > List all the available packages installed in the environment.
