@@ -34,7 +34,7 @@ poetry shell
 fastapi dev app/main.py
 ```
 
-By default the app servces at http://127.0.0.1/, which is the localhost. The Swagger API documentation is available at http://127.0.0.1:8000/docs/.
+By default the app services at http://127.0.0.1/, which is the localhost. The Swagger API documentation is available at http://127.0.0.1:8000/docs/.
 
 > [!TIP]
 > The FastAPI local development mode has auto-reload enabled by default, so it will automatically reload the server when code changes are made. This is resource intensive and should only be used for development.
@@ -59,11 +59,11 @@ Alternatively, build and run the Docker container with Docker compose.
 docker compose up
 ```
 
-The current configuration let the app servces at http://0.0.0.0:8000/. The Swagger API documentation is available at http://0.0.0.0:8000/docs/.
+The current configuration let the app services at http://0.0.0.0:8000/. The Swagger API documentation is available at http://0.0.0.0:8000/docs/.
 
 
 
-## Build from Scatch
+## Build from Scratch
 
 ### Create Poetry Environment
 
