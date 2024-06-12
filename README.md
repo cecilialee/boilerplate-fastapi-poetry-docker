@@ -13,23 +13,13 @@
 
 ## Quickstart
 
-Clone the boilerplate from GitHub.
+### Local Development
 
-```sh
-git clone git@github.com:cecilialee/boilerplate-fastapi-poetry-docker.git
-```
-
-### Prepare Environment
-
-Install the project dependencies specified in `pyproject.toml` and `poetry.lock` and create Poetry virtual environment. 
+Create Poetry virtual environment by installing the project dependencies specified in `pyproject.toml` and `poetry.lock`.
 
 ```sh
 poetry install
 ```
-
-### Serve on Local Development Mode
-
-The FastAPI local development mode has auto-reload enabled by default, so it will automatically reload the server when code changes are made. This is resource intensive and should only be used for development.
 
 Run FastAPI development mode under Poetry virtual environment.
 
@@ -44,7 +34,34 @@ poetry shell
 fastapi dev app/main.py
 ```
 
-By default it servces at http://127.0.0.1, which is the localhost. The Swagger API documentation is available at http://127.0.0.1:8000/docs.
+By default the app servces at http://127.0.0.1/, which is the localhost. The Swagger API documentation is available at http://127.0.0.1:8000/docs/.
+
+> [!TIP]
+> The FastAPI local development mode has auto-reload enabled by default, so it will automatically reload the server when code changes are made. This is resource intensive and should only be used for development.
+
+### Dockerization
+
+Build the Docker image.
+
+```sh
+docker image build -t fastapi-poetry-docker .
+```
+
+Run the Docker container.
+
+```sh
+docker run --rm -p 8000:80 fastapi-poetry-docker
+```
+
+Alternatively, build and run the Docker container with Docker compose.
+
+```sh
+docker compose up
+```
+
+The current configuration let the app servces at http://0.0.0.0:8000/. The Swagger API documentation is available at http://0.0.0.0:8000/docs/.
+
+
 
 ## Build from Scatch
 
