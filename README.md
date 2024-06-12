@@ -88,10 +88,10 @@ Manually add the following config to `pyproject.toml` to use Poetry only for dep
 package-mode = false
 ```
 
-**Optional:** Add dependencies that are only needed for test and development, for example `pytest` and `ipykernel`.
+**Optional:** Add dependencies that are only needed for test and development, for example `ipykernel`.
 
 ```sh
-poetry add pytest ipykernel --group dev
+poetry add ipykernel --group dev
 ```
 
 #### Install Project Dependencies
