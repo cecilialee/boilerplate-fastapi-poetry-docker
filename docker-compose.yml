@@ -1,0 +1,6 @@
+services:
+  app:
+    container_name: fastapi-poetry-docker
+    build: .
+    ports:
+      - "8000:80"
