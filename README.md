@@ -29,7 +29,7 @@ poetry install
 
 ### Serve on Local Development Mode
 
-The FastAPI local development mode have auto-reload enabled by default, so it will automatically reload the server when code changes are made. This is resource intensive and should only be used for development.
+The FastAPI local development mode has auto-reload enabled by default, so it will automatically reload the server when code changes are made. This is resource intensive and should only be used for development.
 
 Run FastAPI development mode under Poetry virtual environment.
 
