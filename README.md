@@ -16,7 +16,7 @@
 Clone the boilerplate from GitHub.
 
 ```sh
-git clone git@github.com:Salfiii/fastapi-template.git
+git clone git@github.com:cecilialee/boilerplate-fastapi-poetry.git
 ```
 
 ### Prepare Environment
