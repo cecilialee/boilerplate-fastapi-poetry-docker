@@ -11,6 +11,6 @@ async def get_token_header(x_token: Annotated[str, Header()]):
 
 
 async def get_query_token(token: str):
-    if token != "cecilia":
-        raise HTTPException(status_code=400, detail="No Cecilia token provided")
+    if token != "morty":
+        raise HTTPException(status_code=400, detail="No Morty token provided")
     
