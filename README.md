@@ -6,7 +6,7 @@
 ![Poetry](https://img.shields.io/badge/poetry-v1.8.3-%233B82F6.svg?&logo=poetry)
 ![Docker](https://img.shields.io/badge/docker-207MB-%230db7ed.svg?&logo=docker)
 
-The repo serves as a minimal reference on serving FastAPI application with Docker multi-stage builds using Poetry as an environment management.
+The repo serves as a minimal reference on serving FastAPI application with Docker multi-stage builds using Poetry as environment management.
 
 Go to [Boilerplate for FastAPI, Pytest. Poetry, and Docker](https://github.com/cecilialee/boilerplate-fastapi-pytest-poetry-docker) for a modified version with Pytest support included.
 
