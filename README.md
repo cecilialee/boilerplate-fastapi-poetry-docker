@@ -1,5 +1,12 @@
 # FastAPI, Poetry, Docker Boilerplate
 
+
+![Python](https://img.shields.io/badge/python-v3.12.3-3670A0.svg?&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/fastapi-v0.111.0-005571.svg?&logo=fastapi)
+![Poetry](https://img.shields.io/badge/poetry-v1.8.3-%233B82F6.svg?&logo=poetry)
+![Docker](https://img.shields.io/badge/docker-207MB-%230db7ed.svg?&logo=docker)
+
+
 ## Requirements
 
 - [Poetry](https://python-poetry.org/) for Python package and environment management.
